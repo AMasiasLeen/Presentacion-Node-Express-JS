@@ -25,8 +25,8 @@ app.get('/estadios', (req, res) => {
   res.render('estadios');
 });
 
-app.get('/calendarios', (req, res) => {
-  res.render('calendarios');
+app.get('/calendario', (req, res) => {
+  res.render('calendario');
 });
 
 app.listen(port, () => {
