@@ -1,0 +1,91 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center; /* Alineación central del contenido del encabezado */
+  }
+  
+  /* Estilos para la navegación (nav) */
+  nav {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    text-align: center; /* Alineación central del contenido de la navegación */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para los párrafos */
+  p {
+    white-space: pre-line;
+  }
+  
+  /* Estilos para las tablas (manteniendo los estilos de la tabla previos) */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000; /* Borde exterior de la tabla */
+  }
+  
+  th, td {
+    border: 1px solid #000; /* Bordes de celdas */
+    padding: 8px; /* Espaciado interno de celdas */
+    text-align: center; /* Alineación de contenido en celdas */
+  }
+  
+  /* Estilos para el fondo principal (manteniendo los estilos previos) */
+  body {
+    background-color: #f5f5f5cf; /* Fondo gris claro */
+    font-family: Arial, sans-serif; /* Fuente de texto principal */
+    color: #333333; /* Color de texto principal (gris oscuro) */
+  }
+  
+  /* Estilos para los enlaces (manteniendo los estilos previos) */
+  a {
+    color: #0000FF; /* Color de enlaces no visitados (azul oscuro) */
+    text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+    transition: color 0.3s; /* Transición de color suave al pasar el mouse */
+  }
+  
+  a:hover {
+    color: #00BFFF; /* Color de enlaces al pasar el mouse (azul claro) */
+  }
+  
+  /* Estilos para las secciones (manteniendo los estilos previos) */
+  section {
+    background-color: #FFFFFF; /* Fondo de secciones (blanco) */
+    padding: 20px; /* Espaciado interno para las secciones */
+    margin: 10px 0; /* Margen superior e inferior para las secciones */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para las secciones */
+    border-radius: 5px; /* Bordes redondeados para las secciones */
+  }
+  
+  /* Agregar estilos modernos a las imágenes si es necesario (manteniendo los estilos previos) */
+  img.modern {
+    max-width: 100%; /* Imágenes responsivas que se ajustan al contenedor */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para las imágenes */
+  }
