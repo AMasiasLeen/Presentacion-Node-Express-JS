@@ -17,6 +17,18 @@ app.get('/partidos', (req, res) => {
   res.render('partidos');
 });
 
+app.get('/jugadores', (req, res) => {
+  res.render('jugadores');
+});
+
+app.get('/estadios', (req, res) => {
+  res.render('estadios');
+});
+
+app.get('/calendarios', (req, res) => {
+  res.render('calendarios');
+});
+
 app.listen(port, () => {
   console.log(`Servidor ejecutándose en http://localhost:${port}`);
 });
