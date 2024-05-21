@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/partidos', (req, res) => {
+  res.render('partidos');
+});
+
 app.listen(port, () => {
   console.log(`Servidor ejecutándose en http://localhost:${port}`);
 });
